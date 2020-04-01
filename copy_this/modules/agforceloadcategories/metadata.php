@@ -1,4 +1,7 @@
 <?php
+
+$sMetadataVersion = '1.1';
+
 $aModule = array(
     'id'           => 'agforceloadcategories',
     'title'        => 'Force load all categories',
