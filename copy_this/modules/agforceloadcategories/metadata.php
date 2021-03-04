@@ -7,7 +7,7 @@ $aModule = array(
     'title'        => 'Force load all categories',
     'description'  => 'Load full category tree in frontend',
     'thumbnail'    => '',
-    'version'      => '1.0.0',
+    'version'      => '1.0.1',
     'author'       => 'Aggrosoft GmbH',
     'extend'      => array(
         'oxcategorylist' => 'agforceloadcategories/extensions/models/agforceloadcategories_oxcategorylist'
@@ -22,7 +22,7 @@ $aModule = array(
 
     ),
     'settings' => array(
-
+        ['group' => 'agforceloadcategories_main', 'name' => 'aAdditionalCategoryFields','type' => 'arr',   'value' => ''],
     ),
     'blocks' => array(
 
